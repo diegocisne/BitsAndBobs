@@ -1,4 +1,9 @@
-message="Hello world";
-for (i=1;i<10;i++){
-console.log(message);
+function repeater(msg){
+    for (i=1;i<10;i++){
+        console.log(msg);
+        }
 }
+message="Hello world";
+repeater(message);
+message="Bye World";
+repeater(message);
